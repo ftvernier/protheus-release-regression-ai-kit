@@ -89,6 +89,29 @@ examples/
 9. Validar plano de rollback.
 10. Gerar resumo executivo para liderança e áreas envolvidas.
 
+## Pontos específicos do Protheus que devem ser considerados
+
+Em migrações de release do ERP Protheus, além dos testes funcionais, é importante considerar pontos técnicos específicos do ecossistema TOTVS, como:
+
+- AppServer;
+- DBAccess;
+- License Server;
+- TSS;
+- RPO/APO;
+- dicionário de dados;
+- tabelas SX;
+- compatibilizadores;
+- atualizações de LIB;
+- arquivos de configuração `appserver.ini`;
+- serviços REST;
+- jobs e schedules;
+- customizações ADVPL/TLPP;
+- integrações externas;
+- geração e transmissão de documentos fiscais;
+- validação de permissões e menus;
+- performance de rotinas críticas;
+- plano de rollback de banco, binários, RPO/APO e configurações.
+
 ## Importante
 
 Este projeto não substitui testes reais, validação funcional, análise técnica ou homologação com usuários-chave.
