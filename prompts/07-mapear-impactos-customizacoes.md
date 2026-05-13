@@ -8,7 +8,7 @@ Você é um especialista em ERP Protheus, ADVPL, TLPP, arquitetura de customiza�
 
 Estou conduzindo uma migração de release do Protheus e preciso mapear riscos relacionados a customizações.
 
-Contexto:
+## Contexto
 
 - Release atual:
 - Release destino:
@@ -20,21 +20,3 @@ Contexto:
 - Jobs customizados:
 - Integrações afetadas:
 - Processos críticos dependentes dessas customizações:
-
-Com base nesse contexto, gere uma matriz de impacto contendo:
-
-1. Customização
-2. Módulo
-3. Processo impactado
-4. Tipo de customização
-5. Dependência com rotina padrão
-6. Risco na migração
-7. Criticidade
-8. Teste regressivo recomendado
-9. Evidência esperada
-10. Ação preventiva
-11. Responsável sugerido
-
-Classifique a criticidade em Baixa, Média, Alta ou Crítica.
-
-Gere a saída em tabela Markdown.
