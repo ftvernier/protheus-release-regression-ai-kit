@@ -112,6 +112,14 @@ Em migrações de release do ERP Protheus, além dos testes funcionais, é impor
 - performance de rotinas críticas;
 - plano de rollback de banco, binários, RPO/APO e configurações.
 
+## Limitação do projeto
+
+Este projeto não é um procedimento oficial de migração de release do Protheus e não substitui a documentação oficial da TOTVS.
+
+O objetivo é apoiar a organização dos testes regressivos, análise de riscos, documentação de evidências e preparação de checklists utilizando IA.
+
+A execução técnica da migração deve seguir os procedimentos oficiais, boas práticas internas da empresa e validação de profissionais especializados.
+
 ## Importante
 
 Este projeto não substitui testes reais, validação funcional, análise técnica ou homologação com usuários-chave.
